@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 
-cd /
+# cd /
 
-cd notebooks
+# cd notebooks
 # run tensorboard
 tensorboard --logdir=/log &
 
 # run jupyter
-bash /run_jupyter.sh
+# bash /run_jupyter.sh
+jupyter notebook

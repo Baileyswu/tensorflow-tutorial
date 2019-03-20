@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:1.0.0
+FROM tensorflow/tensorflow:1.4.0
 
 ENV LANG C.UTF-8
 RUN apt-get update && apt-get install -y bc
